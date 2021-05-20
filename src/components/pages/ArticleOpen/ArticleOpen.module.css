@@ -1,0 +1,110 @@
+.article {
+  width: 941px;
+  min-height: 150px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: #fff;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.15));
+}
+
+.blog {
+  width: 100%;
+}
+.blog__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.blog__title {
+  color: #1890ff;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.blog__tags {
+  margin-bottom: 5px;
+}
+
+.blog__favorites {
+  display: flex;
+  align-items: center;
+}
+.blog__favorites__count {
+  margin-left: 5px;
+}
+
+.blog__description {
+  width: 100%;
+  margin-top: 25px;
+  font-size: 12px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.user {
+  position: relative;
+}
+.user__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.user__text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  align-items: flex-end;
+}
+.user__name {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.user__date {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user__avatar {
+  border-radius: 100px;
+  display: block;
+  max-width: 46px;
+  height: auto;
+}
+.user__btn_group {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn__delete {
+  padding: 5px 15px;
+  color: #f5222d;
+  background: none;
+  border: 1px solid #f5222d;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn__edit {
+  padding: 7px 15px;
+  color: #52c41a;
+  background: none;
+  border: 1px solid #52c41a;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btn__delete:hover {
+  color: #f5222d;
+  opacity: 0.8;
+}
+
+.btn__edit:hover {
+  color: #52c41a;
+  opacity: 0.8;
+}
+.blog__text {
+  margin-top: 50px;
+  width: 100%;
+}

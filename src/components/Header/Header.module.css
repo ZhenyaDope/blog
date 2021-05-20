@@ -1,0 +1,57 @@
+.header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.btn {
+  display: inline;
+  font-size: 18px;
+  border: none;
+  background: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.btn:last-child {
+  margin-right: 0px;
+}
+
+.link {
+  font-size: 18px;
+  text-decoration: none;
+}
+.user_controls {
+  display: flex;
+  align-items: center;
+}
+.username_wrapper {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.username {
+  padding: 0;
+  margin: 0 15px;
+  font-size: 18px;
+}
+.avatar_wrapper {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.avatar {
+  display: block;
+  width: 100%;
+  height: auto;
+}
